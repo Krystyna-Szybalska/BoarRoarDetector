@@ -2,7 +2,7 @@
 
 This Python microservice is a small project that provides an API endpoint for sending sensor data alerts. The microservice accepts sound files from a sensor, processes the data (using AI algorithms, which need to be implemented), and sends an alert to the [WildAlertAPI](https://github.com/MossPiglets/wild-alert-api) with information about the detected animal and the timestamp of detection.
 
-** Endpoints
+## Endpoints
 
 The microservice expects a sound file to be uploaded with the correct authentication key (specified in service_api_key).
 If the request is successful, the microservice will send a JSON payload to the WildAlertAPI on the following endpoint:
@@ -14,7 +14,7 @@ with the following information:
 
 And APi-Key in the Header for authentication purposes.
 
-** How to Run
+## How to Run
 
 To run the microservice:
 1. Ensure that you have virtualenv with flask installed.
