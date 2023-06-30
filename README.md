@@ -4,7 +4,7 @@ This Python microservice is a small project that provides an API endpoint for se
 
 ## Endpoints
 
-The microservice expects a sound file to be uploaded with the correct authentication key (specified in service_api_key).
+The microservice expects a sound file to be uploaded with the correct authentication key (specified in incoming_api_key).
 If the request is successful, the microservice will send a JSON payload to the WildAlertAPI on the following endpoint:
 > POST /API/sensor/<sensor_id>/data
 
@@ -12,7 +12,7 @@ with the following information:
 *detected_at*: The timestamp of when the animal was detected, in ISO 8601 format.
 *detected_animal*: The type of animal detected, which is currently set to a default value of Boar in main.py.
 
-And APi-Key in the Header for authentication purposes.
+And it requires correct API-Key in the Header for authentication purposes (specidied in wildalert_api_key).
 
 ## How to Run
 
