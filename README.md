@@ -21,3 +21,5 @@ To run the microservice:
 2. Ensure that the main.py and utils.py files are in the same directory.
 3. Run the main.py file using the command python main.py.
 4. The microservice will start running on http://localhost:5000.
+
+To check communication with WildAlertAPI it also must be running.
